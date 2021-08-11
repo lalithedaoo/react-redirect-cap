@@ -1,12 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+// Ionic 4 styles
+import '@ionic/core/css/core.css';
+import '@ionic/core/css/ionic.bundle.css';
+
 import './index.css';
-import App from './App';
+import Launcher from './Launcher';
 import reportWebVitals from './reportWebVitals';
+import { IonApp, IonRouterOutlet } from '@ionic/react';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+
+    {/* <IonApp>
+      <IonReactRouter>
+        <IonRouterOutlet>
+
+        </IonRouterOutlet>
+      </IonReactRouter>
+    </IonApp> */}
+    <Launcher />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,6 @@
+{
+  "appId": "com.example.app",
+  "appName": "react-redirect-cap",
+  "webDir": "build",
+  "bundledWebRuntime": false
+}

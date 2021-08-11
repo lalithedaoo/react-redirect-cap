@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "2E92E637T7.com.gl.testdeeplink",
+                "paths": ["*"]
+            }
+        ]
+    }
+}
