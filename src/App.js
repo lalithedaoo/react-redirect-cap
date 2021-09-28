@@ -90,7 +90,7 @@ class App extends Component {
     
 
     // const installedApps = await navigator.getInstalledRelatedApps();
-    // const nativeApp = installedApps.find(app => app.id === 'com.example.app');
+    // const nativeApp = installedApps.find(app => app.id === 'com.gl.capacitor.test');
     // if (nativeApp) {
     //   console.log("Found application: ", {nativeApp})
     // }

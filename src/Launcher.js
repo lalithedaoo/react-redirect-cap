@@ -15,6 +15,7 @@ import {
 import { useHistory } from 'react-router';
 import { AppLauncher } from '@capacitor/app-launcher';
 import userEvent from '@testing-library/user-event';
+import FcmService from './services/fcm.services';
 
 const Launcher = () => {
   const history = useHistory();
@@ -152,6 +153,9 @@ const Launcher = () => {
       }, 10000);
     }
 
+    const handleStartPush = () => {
+      FcmService.getInstance().initialise();
+    }
     return (
         <IonApp>
           <IonHeader>
@@ -181,6 +185,7 @@ const Launcher = () => {
               <div id="test_iOS" width="1" height="1" ></div>
               <iframe height="0" width="0" id="loader"></iframe>
               <a href="https://apps.apple.com/us/app/wise-up-online/id1476457267?itsct=apps_box_badge&amp;itscg=30200" ><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1570060800&h=1c1850d9e10e5c07240398b51f0b6b1d" alt="Download on the App Store"/></a>
+              <IonButton id="StartPush" onClick={handleStartPush}>Start Push</IonButton>
               </IonCardContent>
             </IonCard>
           </IonContent>

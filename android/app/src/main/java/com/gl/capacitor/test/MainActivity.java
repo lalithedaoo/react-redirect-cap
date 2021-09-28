@@ -1,4 +1,4 @@
-package com.example.app;
+package com.gl.capacitor.test;
 
 import com.getcapacitor.BridgeActivity;
 

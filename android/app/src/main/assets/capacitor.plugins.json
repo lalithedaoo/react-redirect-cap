@@ -2,5 +2,9 @@
 	{
 		"pkg": "@capacitor/app-launcher",
 		"classpath": "com.capacitorjs.plugins.applauncher.AppLauncherPlugin"
+	},
+	{
+		"pkg": "@capacitor/push-notifications",
+		"classpath": "com.capacitorjs.plugins.pushnotifications.PushNotificationsPlugin"
 	}
 ]

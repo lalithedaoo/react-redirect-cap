@@ -1,6 +1,15 @@
 {
-  "appId": "com.example.app",
+  "appId": "com.gl.capacitor.test",
   "appName": "react-redirect-cap",
   "webDir": "build",
-  "bundledWebRuntime": false
+  "bundledWebRuntime": false,
+  "plugins": {
+    "PushNotifications": {
+      "presentationOptions": [
+        "badge",
+        "sound",
+        "alert"
+      ]
+    }
+  }
 }

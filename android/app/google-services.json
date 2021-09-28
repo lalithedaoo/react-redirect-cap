@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "48637148189",
+    "project_id": "react-redirect-cap",
+    "storage_bucket": "react-redirect-cap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48637148189:android:ff296508dc4db14d05daf4",
+        "android_client_info": {
+          "package_name": "com.gl.capacitor.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48637148189-gs2fpvc0gmhdu03oauf2p7lr200j6t30.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gl.capacitor.test",
+            "certificate_hash": "be900b3bdce5761baa57a95b30953bba52341ef7"
+          }
+        },
+        {
+          "client_id": "48637148189-9pb31qnsuvng0rvpoejcmagq13djvn5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJW66eg2NXdAb2XB4SwiwBWzcJzLI2Amc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48637148189-9pb31qnsuvng0rvpoejcmagq13djvn5q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "48637148189-fppm7e4k686v2khib16c7083lnigqof2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gl.capacitor.test"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
