@@ -29,7 +29,19 @@
                 <data android:scheme="https" android:host="react-redirect-cap.web.app" />
             </intent-filter>
 
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="mystickers" />
+                <data android:host="sticker" />
+            </intent-filter>
+
         </activity>
+
+        <service android:name=".StickerPackService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
 
         <provider
             android:name="androidx.core.content.FileProvider"
